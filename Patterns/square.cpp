@@ -1,17 +1,18 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
-    int i , j , row , col;
-    cout<<"Enter the value of row: \n";
-    cin>>row;
-    cout<<"Enter the value of column: \n";
-    cin>>col;
+int main() {
+    int size;
 
-    for(i=1;i>=row;i++){
-        for(j=1;j>=col;j++){
-            cout<<" *";
-            }
-            cout<<"\n";
-    } 
+    cout << "Enter the size of the square: ";
+    cin >> size;
+
+    for (int i = 1; i <= size; i++) {
+        for (int j = 1; j <= size; j++) {
+            cout << "* ";
+        }
+        cout << endl; 
+    }
+
+    return 0;
 }
