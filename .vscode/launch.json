@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Admin/Documents/GitHub/OOPS/Patterns",
-      "program": "c:/Users/Admin/Documents/GitHub/OOPS/Patterns/build/Debug/outDebug",
+      "cwd": "c:/Users/Admin/Documents/GitHub/OOPS/C++ Basics",
+      "program": "c:/Users/Admin/Documents/GitHub/OOPS/C++ Basics/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

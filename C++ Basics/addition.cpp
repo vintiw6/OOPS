@@ -1,14 +1,18 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main (){
-    int a , b;
-    int sum = a + b;
+class addition {
+public:  
+    int add(int a, int b) {
+        return a + b; 
+    }
+};
 
-    cout << "Enter Your Number: ";
-    cin >> a >> b;
-    cout << "Your Sum is :" << sum;
+int main() {
+    addition sum;
+    int result = sum.add(3, 5); 
+
+    cout << "The sum of 3 and 5 is: " << result << endl;
 
     return 0;
-
 }
