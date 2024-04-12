@@ -15,21 +15,22 @@
 
   ```c++
   #include <iostream>
+  using namespace std;
 
   class Person {
   public:
-    std::string name;
-    int age;
+     string name;
+     int age;
 
     void greet() {
-      std::cout << "Hello, my name is " << name << std::endl;
+        cout << "Hello, my name is " << name << endl;
     }
   };
 
   int main() {
     Person vinayak;
     vinayak.name = "Vinayak";
-    vinayak.age = 25;
+    vinayak.age = 18;
 
     vinayak.greet();
 
