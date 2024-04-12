@@ -28,11 +28,11 @@
   };
 
   int main() {
-    Person vinayak;
-    vinayak.name = "Vinayak";
-    vinayak.age = 18;
+    Person var;
+    var.name = "Vinayak";
+    var.age = 18;
 
-    vinayak.greet();
+    var.greet();
 
     return 0;
   }
